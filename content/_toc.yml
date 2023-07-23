@@ -9,11 +9,11 @@ parts:
     chapters:
     - file: advection/advection-intro
       sections:
-      - file: advection/advection/advection-partI
-      - file: advection/advection/advection-upwind
-      - file: advection/advection/advection-convergence
+      - file: advection/advection/advection-test-problem
       - file: advection/advection/advection-finite-volumes
+      - file: advection/advection/advection-time-update
       - file: advection/advection/advection-second-order
+      - file: advection/advection/advection-convergence
     - file: advection/burgers/burgers
       sections:
       - file: advection/burgers/burgers-riemann
