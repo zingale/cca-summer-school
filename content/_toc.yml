@@ -1,6 +1,10 @@
 format: jb-book
 root: intro
 parts:
+  - caption: Overview
+    chapters:
+    - file: using
+
   - caption: Advection
     chapters:
     - file: advection/pdes
