@@ -11,7 +11,9 @@ parts:
       sections:
       - file: advection/advection/advection-test-problem
       - file: advection/advection/advection-finite-volumes
+      - file: advection/advection/advection-grid-class
       - file: advection/advection/advection-time-update
+      - file: advection/advection/advection-driver
       - file: advection/advection/advection-second-order
       - file: advection/advection/advection-convergence
     - file: advection/burgers/burgers
