@@ -1,0 +1,25 @@
+format: jb-book
+root: intro
+parts:
+  - caption: Advection
+    chapters:
+    - file: advection/pdes
+    - file: advection/advection-intro
+      sections:
+      - file: advection/advection/advection-partI
+      - file: advection/advection/advection-upwind
+      - file: advection/advection/advection-convergence
+      - file: advection/advection/advection-finite-volumes
+      - file: advection/advection/advection-second-order
+    - file: advection/burgers/burgers
+      sections:
+      - file: advection/burgers/burgers-riemann
+      - file: advection/burgers/burgers-methods
+
+  - caption: Hydrodynamics
+    chapters:
+    - file: euler/euler
+    - file: euler/euler-eigen
+    - file: euler/euler-riemann
+    - file: euler/euler-riemann-sampling
+    - file: euler/euler-solver
