@@ -78,5 +78,3 @@ $$F_{i-1/2} = F(a_{i-1/2}) = u a_{i-1/2} = u \langle a \rangle_{i-1}$$
 Inserting these into our difference equation, we have:
 
 $$\langle a \rangle_i^{n+1} = \langle a \rangle_i^n - \frac{u \Delta t}{\Delta x} (\langle a \rangle_i^n - \langle a \rangle_{i-1}^n)$$
-
-This is precisely the upwind finite-difference scheme we saw earlier.

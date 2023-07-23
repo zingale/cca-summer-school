@@ -8,11 +8,11 @@ parts:
   - caption: Advection
     chapters:
     - file: advection/advection-intro
-    - file: advection/advection-test-problem
     - file: advection/advection-finite-volumes
     - file: advection/advection-grid-class
     - file: advection/advection-time-update
     - file: advection/advection-driver
+    - file: advection/advection-test-problem
     - file: advection/advection-first-order
     - file: advection/advection-convergence
     - file: advection/advection-second-order
