@@ -7,7 +7,6 @@ parts:
 
   - caption: Advection
     chapters:
-    - file: advection/pdes
     - file: advection/advection-intro
       sections:
       - file: advection/advection/advection-partI
