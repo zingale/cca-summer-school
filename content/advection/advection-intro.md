@@ -1,4 +1,4 @@
-# Advection
+# Linear Advection
 
 In astrophysics, many systems (stars, the ISM, gas in galaxies) is modeled as
 a fluid, following the equations of hydrodynamics:
