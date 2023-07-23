@@ -3,7 +3,7 @@ root: intro
 parts:
   - caption: Overview
     chapters:
-    - file: using
+    - file: overview/using
 
   - caption: Advection
     chapters:
