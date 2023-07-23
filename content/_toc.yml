@@ -7,7 +7,7 @@ parts:
 
   - caption: Advection
     chapters:
-    - file: advection-intro
+    - file: advection/advection-intro
     - file: advection/advection-test-problem
     - file: advection/advection-finite-volumes
     - file: advection/advection-grid-class
@@ -16,9 +16,9 @@ parts:
     - file: advection/advection-convergence
     - file: advection/advection-second-order
 
-   - caption: Advection Exercises
-     chapters:
-     - file: advection/burgers
+  - caption: Advection Exercises
+    chapters:
+    - file: advection/burgers
       sections:
       - file: advection/burgers-riemann
       - file: advection/burgers-methods
