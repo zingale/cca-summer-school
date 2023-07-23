@@ -1,13 +1,13 @@
 # Basic Driver
 
 All of the numerical methods for advection and hydro follow the same
-general form, so the basic driver for our evolution is:
+general form, so the basic driver to evolve for a time $T$ is:
 
 * setup the grid
 
 * set initial conditions
 
-* evolve while $t < T$ and $n < N$ :
+* evolve while $t < T$:
 
   * fill boundary conditions
   * compute the timestep
@@ -35,7 +35,7 @@ gives $\Delta x$, and the Courant number, and then we compute the timestep.
 
 ```{note}
 It might be tempting to just set $C = 1$, but in practice we usually do something like $C = 0.8$.
-The hydrodynamics equations are also
+The hydrodynamics equations are 
 non-linear and stability analysis is done on the linear equations, so we need to allow ourselves
 a little headroom.
 ```
