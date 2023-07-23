@@ -13,6 +13,7 @@ parts:
     - file: advection/advection-grid-class
     - file: advection/advection-time-update
     - file: advection/advection-driver
+    - file: advection/advection-first-order
     - file: advection/advection-convergence
     - file: advection/advection-second-order
 

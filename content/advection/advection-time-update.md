@@ -1,5 +1,4 @@
-# Time Update
-
+# First-Order Accurate Time Update
 
 Let's start with a first-order update in time.  We can use the basic Euler
 method:
