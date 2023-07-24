@@ -24,10 +24,18 @@ parts:
       - file: advection/burgers-riemann
       - file: advection/burgers-methods
 
-  - caption: Hydrodynamics
+  - caption: Compressible Euler Equations
     chapters:
     - file: euler/euler
     - file: euler/euler-eigen
     - file: euler/euler-riemann
     - file: euler/euler-riemann-sampling
     - file: euler/euler-solver
+
+  - caption: Euler Solver Exercises
+    chapters:
+    - file: euler/euler-project-convergence
+    - file: euler/euler-project-hll
+    - file: euler/euler-project-nonconservation
+    - file: euler/euler-project-ppm
+    - file: euler/euler-project-spherical
