@@ -56,5 +56,10 @@ a_{i+1/2,L}^{n+1/2} &=&
     &=& a_i^n + \frac{1}{2} \left ( 1 - \frac{\Delta t}{\Delta x} u \right ) \Delta a_i \\
 %%
 a_{i+1/2,R}^{n+1/2} &=& 
-    &=& a_{i+1}^n - \frac{1}{2} \left ( 1 + \frac{\Delta t}{\Delta x} u \right ) \left .\frac{\partial a}{\partial x} \right |_{i+1} 
+    &=& a_{i+1}^n - \frac{1}{2} \left ( 1 + \frac{\Delta t}{\Delta x} u \right ) \Delta a_{i+1}
 \end{eqnarray}
+
+Visually, for each interface, $i+1/2$, we use data to the left ($a_i$) to construct
+the left state and data to the right ($a_{i+1}$) to construct the right state:
+
+![left and right states at $i+1/2$](riemann-adv.png)
