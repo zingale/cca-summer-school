@@ -73,6 +73,8 @@ $$S = \frac{1}{2} (u_l + u_r) = \frac{3}{2}$$
 
 for this case.  
 
-Run this problem for 
+Run this problem for a time $T = 0.2$ and measure the shock speed
+by estimating the position of the discontinuity at two points in time (like $t = 0.1$ and $t = 0.2$) and differencing.
+
 
 

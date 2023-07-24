@@ -1,4 +1,5 @@
-* difference limiter
+* different limiter
 * PPM
 * characteristic tracing
 * Burgers'
+* 2D solver
