@@ -22,9 +22,9 @@ Therefore, we can use periodic boundary conditions on a domain $[0, 1]$ and adve
 Our first set of initial conditions is a tophat:
 
 $$
-a(x, t=0) = \left \{ \begin{array}{ll} 0 & \mbox{if~} x < 1/3 \\
-                                       1 & \mbox{if~} 1/3 \le x \ 2/3 \\
-                                       0 & \mbox{if~} x \ge 2/3
+a(x, t=0) = \left \{ \begin{array}{ll} 0 & \mbox{if } x < \frac{1}{3}\\
+                                       1 & \mbox{if } \frac{1}{3} \le x < \frac{2}{3} \\
+                                       0 & \mbox{if } x \ge \frac{2}{3}
                                        \end{array} \right .
 $$
 
@@ -34,5 +34,5 @@ This is discontinuous, so the derivative $\partial a/\partial x$ is not defined 
 
 Our second set of initial conditions is a Gaussian
 
-$$a(x, t=0) = e^{-10 (x - 1/2)^2}$$
+$$a(x, t=0) = e^{-40 (x - 1/2)^2}$$
 
