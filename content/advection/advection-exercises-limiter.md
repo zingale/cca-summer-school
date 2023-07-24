@@ -16,10 +16,10 @@ $$
 \left . \Delta a\right |_i =
  \left \{
 \begin{array}{ll}
-\min \left [ \frac{1}{2}| a_{i+1} - a_{i-1} |,
+\min \left \{ \frac{1}{2}| a_{i+1} - a_{i-1} |,
               2 | a_{i+1} - a_i |,
               2 | a_{i} - a_{i-1} |
-      \right ]  \mathrm{sign}(a_{i+1} - a_{i-1}) &  \xi > 0 \\
+      \right \}  \mathrm{sign}(a_{i+1} - a_{i-1}) &  \xi > 0 \\
 0 & \mathit{otherwise}
 \end{array}\right .
 $$
