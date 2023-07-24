@@ -90,15 +90,15 @@ $\Delta t$.
 We construct the left and right time-centered interface state at each interface and
 then solve the Riemann problem to find the final interface state:
 
-$$a_{i+1/2}^{n+1/2} = \mathcal{R}(a_{i+1/2,L}^{n+1/2}, a_{i+1/2,R}^{n+1/2}$$
+$$a_{i+1/2}^{n+1/2} = \mathcal{R}(a_{i+1/2,L}^{n+1/2}, a_{i+1/2,R}^{n+1/2})$$
 
 Once this is done, we can compute the fluxes:
 
-$$F^{n+1/2}_{i+1/2} = F(a^{n+1/2}_{i+1/2}) = u a^{n+1/2}_{i+1/2}$$
+$$F^{n+1/2}_{i+1/2} = F(a^{n+1/2}_{i+1/2}) = u\, a^{n+1/2}_{i+1/2}$$
 
 and then do the final conservative update as:
 
-$$a_i^{n+1} = a_i^n + \frac{\Delta t}{\Delta x} (\left [ F_{i-1/2} - F_{i+1/2} \right ]$$
+$$a_i^{n+1} = a_i^n + \frac{\Delta t}{\Delta x} \left ( F_{i-1/2}^{n+1/2} - F_{i+1/2}^{n+1/2} \right )$$
 
 This result should be second-order accurate in space and time.
 
