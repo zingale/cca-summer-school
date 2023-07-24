@@ -53,10 +53,10 @@ and our interface states are:
 
 \begin{eqnarray*}
 a_{i+1/2,L}^{n+1/2} &=& 
-    &=& a_i^n + \frac{1}{2} \left ( 1 - \frac{\Delta t}{\Delta x} u \right ) \Delta a_i \\
+    a_i^n + \frac{1}{2} \left ( 1 - \frac{\Delta t}{\Delta x} u \right ) \Delta a_i \\
 %%
 a_{i+1/2,R}^{n+1/2} &=& 
-    &=& a_{i+1}^n - \frac{1}{2} \left ( 1 + \frac{\Delta t}{\Delta x} u \right ) \Delta a_{i+1}
+    a_{i+1}^n - \frac{1}{2} \left ( 1 + \frac{\Delta t}{\Delta x} u \right ) \Delta a_{i+1}
 \end{eqnarray*}
 
 Visually, for each interface, $i+1/2$, we use data to the left ($a_i$) to construct
@@ -74,10 +74,10 @@ definition, we can rewrite our states as:
 
 \begin{eqnarray*}
 a_{i+1/2,L}^{n+1/2} &=& 
-    &=& a_i^n + \frac{1}{2} \left ( 1 - C \right ) \Delta a_i \\
+    a_i^n + \frac{1}{2} \left ( 1 - C \right ) \Delta a_i \\
 %%
 a_{i+1/2,R}^{n+1/2} &=& 
-    &=& a_{i+1}^n - \frac{1}{2} \left ( 1 + C \right ) \Delta a_{i+1}
+    a_{i+1}^n - \frac{1}{2} \left ( 1 + C \right ) \Delta a_{i+1}
 \end{eqnarray*}
 
 and see that the interface states are computed by just accounting for
