@@ -20,6 +20,7 @@ parts:
   - caption: Advection Exercises
     chapters:
     - file: advection/advection-exercises-limiter
+    - file: advection/advection-exercises-multid
     - file: advection/burgers
       sections:
       - file: advection/burgers-riemann
