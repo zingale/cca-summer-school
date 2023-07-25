@@ -1,4 +1,4 @@
-# Sedov explosion and spherical symmetry
+# Sedov Explosion and Spherical Symmetry
 
 We solved the equations of hydrodynamics in 1-d Cartesian coordinates.
 If we want to model something that is spherically symmetric, we can do

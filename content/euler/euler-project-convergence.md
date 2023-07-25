@@ -1,4 +1,4 @@
-# Measuring convergence of our Euler solver
+# Measuring Convergence of our Euler Solver
 
 We measured convergence with advection by comparing to the exact
 solution.  But what about the case when we don't know the exact

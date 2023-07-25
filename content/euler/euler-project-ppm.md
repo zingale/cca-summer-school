@@ -1,4 +1,4 @@
-# Piecewise parabolic reconstruction for advection
+# Piecewise Parabolic Reconstruction for Advection
 
 In class, we considered piecewise constant and piecewise linear
 reconstruction with advection.  The next step is piecewise parabolic

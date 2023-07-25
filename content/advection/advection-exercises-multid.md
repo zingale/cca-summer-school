@@ -1,4 +1,4 @@
-# Two-dimensional advection
+# Two-dimensional Advection
 
 The linear advection equation in 2-d is:
 

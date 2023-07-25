@@ -1,4 +1,4 @@
-# HLL Riemann solver
+# HLL Riemann Solver
 
 We solved the Riemann problem for the Euler equations exactly, but
 many times in practice we use approximate Riemann solvers.  The HLL
