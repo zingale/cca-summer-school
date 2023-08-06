@@ -4,6 +4,7 @@ parts:
   - caption: Overview
     chapters:
     - file: overview/using
+    - file: overview/why
 
   - caption: Advection
     chapters:

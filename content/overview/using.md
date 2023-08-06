@@ -5,9 +5,20 @@ a collection of [Jupyter](https://jupyter.org/) notebooks and markdown
 pages.
 
 The course is on Github at:
-https://github.com/zingale/computational_astrophysics, and the course
+https://github.com/zingale/cca-summer-school, and the course
 website is built automatically via a Github action each time a change
 is pushed.
+
+````{note}
+For richer text styling in Jupyter notebooks, we use Myst Markdown,
+which requires the ``jupyterlab-myst`` extension.  This can be
+installed via:
+
+```bash
+pip uninstall jupyterlab_myst
+```
+
+````
 
 If you find any problems or have suggestions for improving the notes,
 feel free to create an issue or pull request at the Github repo.
