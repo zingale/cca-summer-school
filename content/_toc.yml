@@ -39,6 +39,7 @@ parts:
   - caption: Euler Solver Exercises
     chapters:
     - file: euler/euler-project-convergence
+    - file: euler/euler-project-time-integration
     - file: euler/euler-project-hll
     - file: euler/euler-project-nonconservation
     - file: euler/euler-project-ppm
