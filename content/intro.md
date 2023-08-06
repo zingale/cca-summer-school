@@ -16,6 +16,10 @@ for:
 * compressible Euler equations
 
 
+The methods we will discuss are at the core of many community astrophysics simulation
+codes.
+
+
 ```{tip}
 
    Detailed derivations of the methods described here can be found in my LaTeX notes
