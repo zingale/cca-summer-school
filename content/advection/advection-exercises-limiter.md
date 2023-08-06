@@ -24,6 +24,6 @@ $$
 \end{array}\right .
 $$
 
-```{admonition} Exercise
+## Try it
+
 Modify the advection code to use this limiter and compare how well it does on our test problems to the minmod case.
-```
