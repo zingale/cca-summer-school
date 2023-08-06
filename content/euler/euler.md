@@ -189,6 +189,8 @@ the middle wave.
   
 * The left and right waves can be either a shock or a rarefaction.
 
+## Sod example
+
 Here's an example of the solution of a Riemann problem for the Euler equations.
 The state on the left is initialized to:
 

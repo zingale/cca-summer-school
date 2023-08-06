@@ -29,8 +29,10 @@ The flux computations are done simply by
 reconstructing in one coordinate direction and solving the Riemann
 problem in that direction.
 
-Code up a 2-d advection solver and test it on advecting a Gaussian.
-
 The timestep limiter needs to be adapted a bit, and is now:
 
 $$\Delta t = C \left [ \frac{u}{\Delta x} + \frac{v}{\Delta y} \right ]^{-1}$$
+
+## Try it
+
+Code up a 2-d advection solver and test it on advecting a Gaussian.
