@@ -1,42 +1,14 @@
-# Measuring Convergence of our Euler Solver
+# Time Integration
 
-We measured convergence with advection by comparing to the exact
-solution.  But what about the case when we don't know the exact
-solution?  We can use a grid convergence study to assess the
-convergence.  Here's how it works.
+We've been using a simple 2nd-order Runge-Kutta / midpoint method 
+for the time integration.  Instead try something higher-order, for 
+example:
 
-1. Pick a smooth problem -- a good problem is the acoustic pulse
-   described in this paper:
+* The [classic 4th order Runge-Kutta method](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods#The_Runge%E2%80%93Kutta_method)
 
-   [A high-order
-   finite-volume method for conservation laws on locally refined
-   grids](https://msp.org/camcos/2011/6-1/p01.xhtml)
+* A [total variation diminishing RK method](https://www.ams.org/journals/mcom/1998-67-221/S0025-5718-98-00913-2/S0025-5718-98-00913-2.pdf).  These are very popular with hydro.
 
-   See section 4.2.  You'll do this in 1-d in our solver with periodic
-   BCs.
+Whichever method you choose, compare the solution you get to the 2nd order method.
 
-2. Run the problem at 4 different resolutions, each varying by a
-   factor of 2, e.g., 32, 64, 128, and 256 zones.
-
-3. Compute an error between the run with N zones and the run with 2N
-   zones as follows:
-
-   * Coarsen the problem with 2N zones down to N zones by averaging
-     2 fine zones into a single coarse zone.  This is shown below:
-
-     ![restriction from a fine grid to a coarse grid](fvrestrict.png)
-
-     Here, $\phi^f$ is a variable on the finer resolution grid and
-     $\phi^c$ is the variable on the coarse grid.  We see that $\phi^c_j$
-     has two fine grid counterparts: $\phi^f_i$ and $\phi^f_{i+1}$, so
-     we would do:
-
-     $$\phi^c_j = \frac{1}{2} \left ( \phi^f_i + \phi^f_{i+1} \right )$$
-
-   * Compute the $L_2$-norm of the difference between the
-     coarsened 2N zone run and the N zone run.
-
-   * Do this for all pairs, so for the 4 runs proposed above, you'd
-     have 3 errors corresponding to 64-128, 128-256, and 256-512.
-
-4. Plot the errors along with a line representing ideal 2nd order convergence.
+Ideally, do the convergence test exercise first, and then see how the time-integration
+method alone affects convergence.
