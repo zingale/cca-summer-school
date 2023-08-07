@@ -12,7 +12,7 @@ Dropping the $\langle \cdot \rangle$, if we write the time-update using an expli
 
 $$\frac{a_i^{n+1} - a_i^n}{\Delta t} = -\frac{1}{\Delta x} \left [ F_{i+1/2} - F_{i-1/2} \right ]$$
 
-This looks like what we had when we did our first-order accurate solver&mash;in that case, we evaluated the fluxes at time $n$.  However, if we could find the fluxes at the midpoint in time, $n+1/2$, then the lefthand-side would be a centered difference, and we would be second-order accurate in time:
+This looks like what we had when we did our first-order accurate solver&mdash;in that case, we evaluated the fluxes at time $n$.  However, if we could find the fluxes at the midpoint in time, $n+1/2$, then the lefthand-side would be a centered difference, and we would be second-order accurate in time:
 
 $$\frac{a_i^{n+1} - a_i^n}{\Delta t} = -\frac{1}{\Delta x} \left [ F_{i+1/2}^{n+1/2} - F_{i-1/2}^{n+1/2} \right ]$$
 

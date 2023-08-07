@@ -15,7 +15,7 @@ which requires the ``jupyterlab-myst`` extension.  This can be
 installed via:
 
 ```bash
-pip uninstall jupyterlab_myst
+pip install jupyterlab_myst
 ```
 
 ````
