@@ -23,6 +23,7 @@ parts:
     - file: advection/advection-exercises-limiter
     - file: advection/advection-exercises-characteristic-tracing
     - file: advection/advection-exercises-multid
+    - file: advection/advection-exercises-ppm
     - file: advection/burgers
       sections:
       - file: advection/burgers-riemann
@@ -42,5 +43,4 @@ parts:
     - file: euler/euler-project-time-integration
     - file: euler/euler-project-hll
     - file: euler/euler-project-nonconservation
-    - file: euler/euler-project-ppm
     - file: euler/euler-project-spherical
