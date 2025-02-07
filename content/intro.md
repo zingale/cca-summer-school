@@ -23,5 +23,5 @@ codes.
 ```{tip}
 
    Detailed derivations of the methods described here can be found in my LaTeX notes
-   [Introduction to Computational Astrophysical Hydrodynamics](http://bender.astro.sunysb.edu/hydro_by_example/CompHydroTutorial.pdf)
+   [Introduction to Computational Astrophysical Hydrodynamics](https://open-astrophysics-bookshelf.github.io/numerical_exercises/)
 ```
